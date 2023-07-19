@@ -1,0 +1,56 @@
+.header{
+    margin: 0;
+    padding: 0;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 45px;
+}
+.frame-logo{
+    margin: 0;
+    width: 86.041px;
+    height: 40 px;
+    flex-shrink: 0;
+
+}
+.text-color{
+    color: pink;
+}
+
+.icon-container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 18px;
+    
+}
+
+.navi-icon{
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+#follow{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    gap: 10px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+
+}
+.social-icon{
+    text-decoration: none;
+    margin-right: 5px;
+}
