@@ -55,11 +55,23 @@
     text-decoration: none;
     margin-right: 5px;
 }
+.goat-container{
+    display: flex;
+    justify-content: space-between;
+    border: 5px solid red;
+    margin: 50px auto 0;
+    max-width: 1400px;
+    min-height: 50px;
+    
+}
 .goat{
     font-family: Work Sans;
-    text-align: center;
     background-image: url(images/Group\ 14.png);
+    display: flex;
+    width: 50%;
+    height: auto;
     text-align: center;
+
 }
 .headline{
     color: #0B0223;
@@ -69,15 +81,12 @@
     text-transform: uppercase;
 }
 .goat-logo{
-    width: 50%;
-    text-align: center;
     font-size: 95px;
     font-weight: 800;
     text-transform: uppercase;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    
 }
 .goat-des{
 
@@ -86,19 +95,36 @@
     font-size: 20px;
     font-weight: 500;
     
+    gap: 0;
+    
 }
 .first{
     display: flex;
-    justify-content: space-around;
     
 }
 .second{
     display: flex;
-    justify-content: space-around;
+
     
 }
 .third{
      display: flex;
-     justify-content: space-around;
-        
+     
+}
+
+.btn{
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+}
+.btn-1{
+
+background-color: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+color: white;
+}
+.btn-2{
+    background-color: #4EC5F7;
+    color: white;
 }
