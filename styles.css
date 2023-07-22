@@ -56,8 +56,9 @@
     margin-right: 5px;
 }
 .goat-container{
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
     border: 5px solid red;
     margin: 50px auto 0;
     max-width: 1400px;
@@ -67,7 +68,7 @@
 .goat{
     font-family: Work Sans;
     background-image: url(images/Group\ 14.png);
-    display: flex;
+    
     width: 50%;
     height: auto;
     text-align: center;
@@ -128,3 +129,62 @@ color: white;
     background-color: #4EC5F7;
     color: white;
 }
+
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  
+  .row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .news-options,
+  .footer-options {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    text-align: center;
+  }
+  
+  .news-options li {
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .footer-options li {
+    display: inline-flex;
+    padding: 10px;
+    align-items: flex-start;
+    gap: 60px;
+  }
+  
+  .social-icons {
+    display: flex;
+    
+    align-items: center;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    margin-right: 10px;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  /* Add Font Awesome icons library (adjust the URL as needed) */
+  @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+  
